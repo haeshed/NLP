@@ -14,5 +14,13 @@
     "english_on_spanish": 23.55
   },
   "test_match": "KeyError('source')",
-  "test_generate": "NameError(\"name 'generate' is not defined\")"
+  "test_generate": {
+    "english_2_gram": "I am l\u2026Stown:/Bomandearl",
+    "english_3_gram": "I ame co/8uXRT @Fautchan",
+    "english_4_gram": "I Love to https://t.co/gZl",
+    "spanish_2_gram": "Soye M: Squir adas, @mp",
+    "spanish_3_gram": "Soy nifuier Sande  3/1Z",
+    "french_2_gram": "Je suiss Jesophtratt.RT Le ",
+    "french_3_gram": "Je suisseya po\u00e9s sayywCU6WX"
+  }
 }
