@@ -1,6 +1,6 @@
 {
   "test_preprocess": {
-    "vocab_length": 1805
+    "vocab_length": 1803
   },
   "test_lm": {
     "english_2_gram_length": 747,
@@ -10,17 +10,9 @@
   },
   "test_eval": {
     "english_on_english": 8.77,
-    "english_on_french": 25.27,
-    "english_on_spanish": 23.63
+    "english_on_french": 25.24,
+    "english_on_spanish": 23.55
   },
   "test_match": "KeyError('source')",
-  "test_generate": {
-    "english_2_gram": "I amy.chacl @xllllldon t",
-    "english_3_gram": "I am @pecit BrafmRT @Foo",
-    "english_4_gram": "I Lovertand I'll ple to ge",
-    "spanish_2_gram": "Soys enompquerirmie pr\u00e1",
-    "spanish_3_gram": "Soy se pro evermille su",
-    "french_2_gram": "Je suis v\u00e9t Laun gllutaloin",
-    "french_3_gram": "Je suis de L'hui truie vu\" "
-  }
+  "test_generate": "NameError(\"name 'generate' is not defined\")"
 }

@@ -1,0 +1,26 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1805
+  },
+  "test_lm": {
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8735,
+    "french_3_gram_length": 8793,
+    "spanish_3_gram_length": 9121
+  },
+  "test_eval": {
+    "english_on_english": 23.45,
+    "english_on_french": 111.55,
+    "english_on_spanish": 101.85
+  },
+  "test_match": "KeyError('source')",
+  "test_generate": {
+    "english_2_gram": "I amatpinan @mps d.curil",
+    "english_3_gram": "I amayeTylan heDtps://t.",
+    "english_4_gram": "I Love agonna need the bil",
+    "spanish_2_gram": "Soy dinan ci a nana!! a",
+    "spanish_3_gram": "Soy do RE La exicesa ex",
+    "french_2_gram": "Je suis:/Cde BCZ4yDipe B3:/",
+    "french_3_gram": "Je suis gr\u00e9ani jmnicarasen "
+  }
+}
