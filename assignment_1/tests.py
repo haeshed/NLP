@@ -6,30 +6,31 @@ def test_preprocess():
 
 def test_lm():
     return {
-        'english_2_gram_length': len(lm('en', 2)),
-        'english_3_gram_length': len(lm('en', 3)),
-        'french_3_gram_length': len(lm('fr', 3)),
-        'spanish_3_gram_length': len(lm('es', 3)),
+        'english_2_gram_length': len(lm('en', 2, True)),
+        'english_3_gram_length': len(lm('en', 3, True)),
+        'french_3_gram_length': len(lm('fr', 3, True)),
+        'spanish_3_gram_length': len(lm('es', 3, True)),
     }
 
 def test_eval():
     return {
-        'english_on_english': round(eval(lm('en', 3), 'en'), 2),
-        'english_on_french': round(eval(lm('en', 3), 'fr'), 2),
-        'english_on_spanish': round(eval(lm('en', 3), 'es'), 2),
+        'en_en': eval(lm('en', 3, True), 'en', 3),
+        'en_fr': eval(lm('en', 3, True), 'fr', 3),
+        'en_tl': eval(lm('en', 3, True), 'tl', 3),
+        'en_nl': eval(lm('en', 3, True), 'nl', 3),
     }
 
 def test_match():
     df = match()
     return {
-        'df_shape': df.shape,
-        'en_en_1': df[(df['source'] == 'en') & (df['target'] == 'en') & (df['n'] == 1)]['perplexity'].values[0],
-        'tl_tl_1': df[(df['source'] == 'tl') & (df['target'] == 'tl') & (df['n'] == 1)]['perplexity'].values[0],
-        'tl_nl_4': df[(df['source'] == 'tl') & (df['target'] == 'nl') & (df['n'] == 4)]['perplexity'].values[0],
+        'en_en_3': df[(df['source'] == 'en') & (df['target'] == 'en') & (df['n'] == 3)]['perplexity'].values[0],
+        'en_tl_3': df[(df['source'] == 'en') & (df['target'] == 'tl') & (df['n'] == 3)]['perplexity'].values[0],
+        'en_nl_3': df[(df['source'] == 'en') & (df['target'] == 'nl') & (df['n'] == 3)]['perplexity'].values[0],
     }
 
 def test_generate():
     return {
+        'english_1_gram': generate('en', 1, "I", 20, 5), 
         'english_2_gram': generate('en', 2, "I am", 20, 5),
         'english_3_gram': generate('en', 3, "I am", 20, 5),
         'english_4_gram': generate('en', 4, "I Love", 20, 5),
