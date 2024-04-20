@@ -13,14 +13,22 @@
     "english_on_french": 25.25,
     "english_on_spanish": 23.55
   },
-  "test_match": "KeyError('n')",
+  "test_match": {
+    "df_shape": [
+      256,
+      4
+    ],
+    "en_en_1": Infinity,
+    "tl_tl_1": 93.7192115940924,
+    "tl_nl_4": Infinity
+  },
   "test_generate": {
-    "english_2_gram": "I ameess t s mbe Storer ",
-    "english_3_gram": "I amay https://t.co/A50K",
-    "english_4_gram": "I Love abdldbegiaDinner's ",
-    "spanish_2_gram": "Soynhe  jo Tess do/ had",
-    "spanish_3_gram": "Soy y pa\u00f1a noniero\u00a1\u00a1\u00a1\u00a1\u201c",
-    "french_2_gram": "Je suis t mare lex  diensou",
-    "french_3_gram": "Je suistion ma jvouro: LeVS"
+    "english_2_gram": "I ama rugge ng ht.ck5SOo",
+    "english_3_gram": "I amAZASbiame 17 to son'",
+    "english_4_gram": "I Loveaways peopless Fired",
+    "spanish_2_gram": "Soy trnr@Arvent.co e.. ",
+    "spanish_3_gram": "Soyjra dado los de Cafa",
+    "french_2_gram": "Je suise griofonan\u00e9e j'es @",
+    "french_3_gram": "Je suispous dattps://t.co/S"
   }
 }

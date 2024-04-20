@@ -1,6 +1,6 @@
 {
   "test_preprocess": {
-    "vocab_length": 1805
+    "vocab_length": 1806
   },
   "test_lm": {
     "english_2_gram_length": 747,
@@ -9,18 +9,23 @@
     "spanish_3_gram_length": 9121
   },
   "test_eval": {
-    "english_on_english": 23.45,
-    "english_on_french": 111.55,
-    "english_on_spanish": 101.85
+    "english_on_english": 8.77,
+    "english_on_french": 25.23,
+    "english_on_spanish": 23.53
   },
-  "test_match": "KeyError('source')",
+  "test_match": {
+    "df_shape": [256,4],
+    "en_en_1": 40.75727954846792,
+    "tl_tl_1": 93.57627969608006,
+    "tl_nl_4": 66.56688479585026
+  },
   "test_generate": {
-    "english_2_gram": "I amatpinan @mps d.curil",
-    "english_3_gram": "I amayeTylan heDtps://t.",
-    "english_4_gram": "I Love agonna need the bil",
-    "spanish_2_gram": "Soy dinan ci a nana!! a",
-    "spanish_3_gram": "Soy do RE La exicesa ex",
-    "french_2_gram": "Je suis:/Cde BCZ4yDipe B3:/",
-    "french_3_gram": "Je suis gr\u00e9ani jmnicarasen "
+    "english_2_gram": "I amjan WMiclFo/pedestwR",
+    "english_3_gram": "I amp\u2026@CBCsmhis bur one ",
+    "english_4_gram": "I Loved thing for pics lit",
+    "spanish_2_gram": "Soy Ia: s emade\u00f1osun ll",
+    "spanish_3_gram": "Soy sernar de deoreeeed",
+    "french_2_gram": "Je suis: a @akJVGrrmePder @",
+    "french_3_gram": "Je suisi : UNS Minutre miRT"
   }
 }
