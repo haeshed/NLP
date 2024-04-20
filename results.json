@@ -1,6 +1,6 @@
 {
   "test_preprocess": {
-    "vocab_length": 1806
+    "vocab_length": 1804
   },
   "test_lm": {
     "english_2_gram_length": 747,
@@ -10,7 +10,7 @@
   },
   "test_eval": {
     "english_on_english": 8.77,
-    "english_on_french": 25.25,
+    "english_on_french": 25.24,
     "english_on_spanish": 23.55
   },
   "test_match": {
@@ -23,12 +23,12 @@
     "tl_nl_4": Infinity
   },
   "test_generate": {
-    "english_2_gram": "I ama rugge ng ht.ck5SOo",
-    "english_3_gram": "I amAZASbiame 17 to son'",
-    "english_4_gram": "I Loveaways peopless Fired",
-    "spanish_2_gram": "Soy trnr@Arvent.co e.. ",
-    "spanish_3_gram": "Soyjra dado los de Cafa",
-    "french_2_gram": "Je suise griofonan\u00e9e j'es @",
-    "french_3_gram": "Je suispous dattps://t.co/S"
+    "english_2_gram": "I amo #ght...co//t s is:",
+    "english_3_gram": "I ams at tharts u the dr",
+    "english_4_gram": "I Love (extravi justructim",
+    "spanish_2_gram": "Soy madetuis: mem y pad",
+    "spanish_3_gram": "Soy Tro, to hias_AgXYlm",
+    "french_2_gram": "Je suis:/tren\u00e7aco//E Hipica",
+    "french_3_gram": "Je suis https://t.coul enjo"
   }
 }
