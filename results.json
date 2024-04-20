@@ -1,6 +1,6 @@
 {
   "test_preprocess": {
-    "vocab_length": 1803
+    "vocab_length": 1806
   },
   "test_lm": {
     "english_2_gram_length": 747,
@@ -10,17 +10,17 @@
   },
   "test_eval": {
     "english_on_english": 8.77,
-    "english_on_french": 25.24,
+    "english_on_french": 25.25,
     "english_on_spanish": 23.55
   },
-  "test_match": "KeyError('source')",
+  "test_match": "KeyError('n')",
   "test_generate": {
-    "english_2_gram": "I am l\u2026Stown:/Bomandearl",
-    "english_3_gram": "I ame co/8uXRT @Fautchan",
-    "english_4_gram": "I Love to https://t.co/gZl",
-    "spanish_2_gram": "Soye M: Squir adas, @mp",
-    "spanish_3_gram": "Soy nifuier Sande  3/1Z",
-    "french_2_gram": "Je suiss Jesophtratt.RT Le ",
-    "french_3_gram": "Je suisseya po\u00e9s sayywCU6WX"
+    "english_2_gram": "I ameess t s mbe Storer ",
+    "english_3_gram": "I amay https://t.co/A50K",
+    "english_4_gram": "I Love abdldbegiaDinner's ",
+    "spanish_2_gram": "Soynhe  jo Tess do/ had",
+    "spanish_3_gram": "Soy y pa\u00f1a noniero\u00a1\u00a1\u00a1\u00a1\u201c",
+    "french_2_gram": "Je suis t mare lex  diensou",
+    "french_3_gram": "Je suistion ma jvouro: LeVS"
   }
 }
